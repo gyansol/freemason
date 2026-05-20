@@ -1,0 +1,1646 @@
+@media (min-width: 1920px) and (max-width: 5000px) {
+  .custom-container {
+    margin: 0 auto;
+    width: 1800px;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 5000px) {
+}
+@media (min-width: 1400px) and (max-width: 1700px) {
+  .main-banner-left-text-box {
+    width: 100%;
+  }
+
+  .main-li-bar {
+    margin: 0px 10px 0px 10px;
+  }
+  .main-logo-top {
+    width: 300px;
+    height: 42px;
+  }
+  .custom-width-small-laptop {
+    width: 100%;
+  }
+  .count-wrap-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .odft-top-left-img {
+    left: 73px;
+  }
+  .odft-token-left-img-box {
+    text-align: center;
+  }
+  .whitepaper-image-box img {
+    width: 453px;
+    height: 409px;
+  }
+  .symbol-name-right-box {
+    padding-top: 159px;
+  }
+  .advantages-inner-box p {
+    width: 84%;
+  }
+  .custom-setting-phase-bottom-image {
+    right: -60px !important;
+  }
+  .phase-bottom-icon-img-box {
+    left: -60px;
+  }
+  .main-element-contact-top {
+    width: 150px;
+    height: 150px;
+  }
+  .main-element-contact-bottom {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1399px) {
+  .main-banner-left-text-box {
+    width: 100%;
+  }
+  .main-logo-top {
+    width: 250px;
+    height: 35px;
+  }
+  .main-ul-li-a-link {
+    font-size: 12px;
+  }
+  .main-li-bar {
+    margin: 0px 10px 0px 10px;
+  }
+  .contact-us-btn-box a {
+    font-size: 16px;
+    width: 153px;
+    height: 55px;
+  }
+  .main-ul-bar {
+    padding: 14px 14px 14px 14px;
+  }
+  .main-banner-left-text-box p {
+    font-size: 16px;
+  }
+  .main-banner-left-text-box h1 {
+    font-size: 36px;
+    line-height: 38px;
+  }
+  .main-heading-section-common-box.text-center h6 {
+    font-size: 16px;
+  }
+  .main-heading-section-common-box.text-center h2 {
+    font-size: 28px;
+  }
+  .days-count-box h2 {
+    font-size: 28px;
+  }
+  .days-count-box h6 {
+    font-size: 16px;
+    color: #828282;
+  }
+  .line-box h2 {
+    font-size: 28px;
+  }
+  .count-wrap-box li {
+    margin: 22px;
+  }
+  .odft-top-left-img {
+    width: 150px;
+    height: 150px;
+    top: 110px;
+  }
+  .odft-bottom-right-img {
+    width: 160px;
+    height: 160px;
+  }
+  .count-wrap-box {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .main-Buy-Administration-token-box h2 {
+    font-size: 28px;
+  }
+  .main-denomination-box h4 {
+    font-size: 22px;
+  }
+  .denomination-inner-list h5 {
+    font-size: 22px;
+  }
+  .denomination-buy-btn a {
+    font-size: 16px;
+
+    width: 108px;
+    height: 55px;
+  }
+  .denomination-inner-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 27px;
+  }
+  .Notice-bottom-box h6 {
+    font-size: 20px;
+  }
+  .Notice-bottom-box ul li p {
+    font-size: 16px;
+  }
+  .odft-token-right-text-box h6 {
+    font-size: 16px;
+  }
+  .odft-token-right-text-box h2 {
+    font-size: 28px;
+  }
+  .odft-token-right-text-box p {
+    font-size: 16px;
+  }
+  .odft-token-left-img-box img {
+    height: 500px;
+  }
+  .odft-token-wrap-section {
+    padding-top: 93px;
+  }
+  .odft-token-left-img-box {
+    text-align: center;
+  }
+  .whitepaper-image-box img {
+    width: 453px;
+    height: 409px !important;
+  }
+  .name-and-symbol-wrap-box {
+    padding-top: 80px;
+  }
+  .name-symbol-heading-box h5 {
+    font-size: 20px;
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+  }
+  .symbol-name-right-box h4 {
+    font-size: 26px;
+  }
+  .symbol-icon-left-box img {
+    width: 150px;
+    height: 150px;
+  }
+  .symbol-icon-left-box h5 {
+    font-size: 22px;
+  }
+  .symbol-name-right-box h5 {
+    font-size: 22px;
+  }
+  .symbol-name-right-box {
+    padding-top: 200px;
+  }
+  .dapp-heading-box h4 {
+    font-size: 22px;
+  }
+  .hover-show-text p {
+    font-size: 15px;
+  }
+  .hover-show-text {
+    padding: 27.4px 0px;
+  }
+  .dapp-lower-img-box img {
+    width: 166px;
+    height: 225px;
+  }
+  .dapp-upper-img-box img {
+    width: 145px;
+    height: 167px;
+  }
+  .odfc-lower-image-box img {
+    width: 226px;
+    height: 303px;
+  }
+  .odfc-upper-image-box img {
+    width: 217.82px;
+    height: 250.34px;
+  }
+  .odfc-hover-show-text {
+    padding: 83.31px 0px 32.5333px 0px;
+  }
+  .main-pillar-inside-warp-box {
+    margin-top: 150px;
+  }
+  .token-funds-heading-btn-box h5 {
+    font-size: 22px;
+  }
+  .top-pahse-icon-box h6 {
+    font-size: 16px;
+  }
+  .phase-inner-box h4 {
+    font-size: 22px;
+  }
+  .phase-inner-box p {
+    font-size: 16px;
+  }
+  .custom-phase-inner-box {
+    margin-top: 400px;
+  }
+  .phase-bottom-icon-img-box img {
+    width: 150px;
+    height: 150px;
+  }
+  .phase-bottom-icon-img-box {
+    left: -40px;
+  }
+  .custom-setting-phase-bottom-image img {
+    width: 150px;
+    height: 150px;
+  }
+  .custom-setting-phase-bottom-image {
+    right: -40px !important;
+  }
+  .main-odfc-logo-box img {
+    width: 306px;
+    height: 292px;
+  }
+  .main-odfc-logo-box {
+    padding-top: 85px;
+  }
+  .main-element-contact-top {
+    width: 150px;
+    height: 150px;
+    left: 80px;
+  }
+  .main-element-contact-bottom {
+    bottom: -50px;
+    width: 150px;
+    height: 150px;
+  }
+  .custom-contact-us-input-field {
+    height: 50px;
+    font-size: 12px;
+  }
+  .custom-contact-us-text-field {
+    font-size: 12px;
+  }
+  .contact-us-left-heading-box img {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 25px;
+  }
+  .contact-us-left-heading-box p {
+    font-size: 16px;
+  }
+  .main-contact-us-form-box {
+    padding: 90px 0px;
+  }
+  .footer-main-links-box h5 {
+    font-size: 18px;
+  }
+  .footer-main-links-box ul li a {
+    font-size: 14px;
+  }
+  .footer-main-download-soical-box h5 {
+    font-size: 18px;
+  }
+  .main-footer-wrap-box {
+    margin: 192px 15px 0px 15px;
+  }
+  .white-paper-download-img-box {
+    margin-right: 37px;
+  }
+  .footer-main-links-box ul li {
+    margin-bottom: 16px;
+  }
+  .footer-soical-icon-box ul li a img {
+    width: 30px;
+    height: 36px;
+  }
+  .copy-right-left-text-box h6 {
+    font-size: 14px;
+  }
+  .copy-right-right-link-box ul li a {
+    font-size: 14px;
+  }
+  .main-copyright-bottom-box {
+    padding: 18px 0px;
+  }
+  .advantages-main-heading-box h2 {
+    font-size: 28px;
+  }
+  .advantages-inner-box h4 {
+    font-size: 22px;
+  }
+  .advantages-inner-box p {
+    font-size: 16px;
+  }
+  .advantages-inner-box h4 {
+    min-height: 0px;
+  }
+  .Advantages-Tokenomics-Model-box {
+    padding-top: 24px;
+  }
+  .moblie-top-padding {
+    padding-top: 80px;
+  }
+  .advantages-main-heading-box {
+    padding-bottom: 34px;
+  }
+  .token-allocation-img-box {
+    padding-top: 50px;
+  }
+  .main-denomination-box {
+    padding: 55px 65px;
+  }
+
+  /* token details resposive start */
+
+  .token-details-table th {
+    font-size: 22px;
+  }
+  .td-icon img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .token-details-table th,
+  .token-details-table td {
+    font-size: 22px;
+  }
+
+  .td-icon {
+    margin-right: 25px;
+  }
+  .token-title {
+    font-size: 28px;
+  }
+
+  /* token details resposive end */
+}
+@media (min-width: 992px) and (max-width: 1220px) {
+  /* token detail media start */
+
+  .copy-icon h6 {
+    display: none;
+  }
+
+  /* token detail media end */
+
+  .custom-width-small-laptop {
+    width: 100%;
+  }
+  .main-moblie-logo {
+    display: block;
+    width: 60px;
+    height: 60px;
+  }
+  .main-logo-top {
+    width: 250px;
+    height: 35px;
+    display: none;
+  }
+  .main-ul-li-a-link {
+    font-size: 12px;
+  }
+  .main-li-bar {
+    margin: 0px 10px 0px 10px;
+  }
+  .contact-us-btn-box a {
+    font-size: 16px;
+    width: 153px;
+    height: 55px;
+  }
+  .main-ul-bar {
+    padding: 14px 14px 14px 14px;
+  }
+  .main-banner-left-text-box p {
+    font-size: 16px;
+  }
+  .main-banner-left-text-box h1 {
+    font-size: 36px;
+    line-height: 38px;
+  }
+  .main-heading-section-common-box.text-center h6 {
+    font-size: 16px;
+  }
+  .main-heading-section-common-box.text-center h2 {
+    font-size: 28px;
+  }
+  .days-count-box h2 {
+    font-size: 28px;
+  }
+  .days-count-box h6 {
+    font-size: 16px;
+    color: #828282;
+  }
+  .line-box h2 {
+    font-size: 28px;
+  }
+  .count-wrap-box li {
+    margin: 22px;
+  }
+  .odft-top-left-img {
+    width: 150px;
+    height: 150px;
+    top: 110px;
+  }
+  .odft-bottom-right-img {
+    width: 160px;
+    height: 160px;
+    right: 90px;
+
+    top: 242px;
+  }
+  .count-wrap-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-Buy-Administration-token-box h2 {
+    font-size: 28px;
+  }
+  .main-denomination-box h4 {
+    font-size: 22px;
+  }
+  .denomination-inner-list h5 {
+    font-size: 22px;
+  }
+  .denomination-buy-btn a {
+    font-size: 16px;
+
+    width: 108px;
+    height: 55px;
+  }
+  .denomination-inner-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 27px;
+  }
+  .Notice-bottom-box h6 {
+    font-size: 20px;
+  }
+  .Notice-bottom-box ul li p {
+    font-size: 16px;
+  }
+  .odft-token-right-text-box h6 {
+    font-size: 16px;
+  }
+  .document-whitepaper-left-text {
+    margin-top: 20px;
+  }
+  .odft-token-right-text-box h2 {
+    font-size: 28px;
+  }
+  .odft-token-right-text-box p {
+    font-size: 16px;
+  }
+  .odft-token-left-img-box img {
+    height: 500px;
+  }
+  .odft-token-wrap-section {
+    padding-top: 85px;
+  }
+  .odft-token-left-img-box {
+    text-align: center;
+  }
+  .whitepaper-image-box img {
+    width: 353px;
+    height: 309px !important;
+  }
+  .name-and-symbol-wrap-box {
+    padding-top: 80px;
+  }
+  .name-symbol-heading-box h5 {
+    font-size: 20px;
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+  }
+  .symbol-name-right-box h4 {
+    font-size: 26px;
+  }
+  .symbol-icon-left-box img {
+    width: 150px;
+    height: 150px;
+  }
+  .symbol-icon-left-box h5 {
+    font-size: 22px;
+  }
+  .symbol-name-right-box h5 {
+    font-size: 22px;
+  }
+  .symbol-name-right-box {
+    padding-top: 200px;
+  }
+  .dapp-heading-box h4 {
+    font-size: 22px;
+  }
+  .hover-show-text p {
+    font-size: 15px;
+  }
+  .hover-show-text {
+    padding: 16.2px 0px;
+  }
+  .dapp-lower-img-box img {
+    width: 166px;
+    height: 225px;
+  }
+  .dapp-upper-img-box img {
+    width: 145px;
+    height: 167px;
+  }
+  .odfc-lower-image-box img {
+    width: 226px;
+    height: 303px;
+  }
+  .odfc-upper-image-box img {
+    width: 217.82px;
+    height: 250.34px;
+  }
+  .odfc-hover-show-text {
+    padding: 56px 0px 32.5333px 0px;
+  }
+  .main-pillar-inside-warp-box {
+    margin-top: 150px;
+  }
+  .token-funds-heading-btn-box h5 {
+    font-size: 22px;
+  }
+  .top-pahse-icon-box h6 {
+    font-size: 16px;
+  }
+  .phase-inner-box h4 {
+    font-size: 22px;
+  }
+  .phase-inner-box p {
+    font-size: 16px;
+  }
+  .custom-phase-inner-box {
+    margin-top: 400px;
+  }
+  .phase-bottom-icon-img-box img {
+    width: 150px;
+    height: 150px;
+  }
+  .phase-bottom-icon-img-box {
+    left: -40px;
+  }
+  .custom-setting-phase-bottom-image img {
+    width: 150px;
+    height: 150px;
+  }
+  .custom-setting-phase-bottom-image {
+    right: -40px !important;
+  }
+  .main-odfc-logo-box img {
+    width: 306px;
+    height: 292px;
+  }
+  .main-odfc-logo-box {
+    padding-top: 85px;
+  }
+  .main-element-contact-top {
+    width: 150px;
+    height: 150px;
+    left: 80px;
+  }
+  .main-element-contact-bottom {
+    bottom: -50px;
+    width: 150px;
+    height: 150px;
+  }
+  .custom-contact-us-input-field {
+    height: 50px;
+    font-size: 12px;
+  }
+  .custom-contact-us-text-field {
+    font-size: 12px;
+  }
+  .contact-us-left-heading-box img {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 25px;
+  }
+  .contact-us-left-heading-box p {
+    font-size: 16px;
+  }
+  .main-contact-us-form-box {
+    padding: 90px 0px;
+  }
+  .footer-main-links-box h5 {
+    font-size: 18px;
+  }
+  .footer-main-links-box ul li a {
+    font-size: 14px;
+  }
+  .footer-main-download-soical-box h5 {
+    font-size: 18px;
+  }
+  .main-footer-wrap-box {
+    margin: 192px 15px 0px 15px;
+  }
+  .white-paper-download-img-box {
+    margin-right: 37px;
+  }
+  .footer-main-links-box ul li {
+    margin-bottom: 16px;
+  }
+  .footer-soical-icon-box ul li a img {
+    width: 30px;
+    height: 36px;
+  }
+  .copy-right-left-text-box h6 {
+    font-size: 14px;
+  }
+  .copy-right-right-link-box ul li a {
+    font-size: 14px;
+  }
+  .main-copyright-bottom-box {
+    padding: 18px 0px;
+  }
+  .advantages-main-heading-box h2 {
+    font-size: 28px;
+  }
+  .advantages-inner-box h4 {
+    font-size: 22px;
+  }
+  .advantages-inner-box p {
+    font-size: 16px;
+  }
+  .advantages-inner-box h4 {
+    min-height: 0px;
+  }
+  .Advantages-Tokenomics-Model-box {
+    padding-top: 24px;
+  }
+  .moblie-top-padding {
+    padding-top: 80px;
+  }
+  .advantages-main-heading-box {
+    padding-bottom: 34px;
+  }
+  .token-allocation-img-box {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* token details media start */
+
+  .token-title {
+    font-size: 28px;
+  }
+
+  .token-details-table th {
+    font-size: 22px;
+  }
+  .token-details-table th,
+  .token-details-table td {
+    font-size: 22px;
+  }
+  .copy-icon h6 {
+    display: none;
+  }
+  /* token details media end */
+
+  .main-denomination-box {
+    padding: 60px 40px;
+  }
+  .Notice-bottom-box {
+    padding: 52px 40px;
+  }
+  .custom-width {
+    width: 100%;
+  }
+  .custom-container {
+    margin: 0px 20px;
+  }
+  .navbar-toggler-icon img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .main-banner-wrap-section-top {
+    background-image: url("../images/tab-banner-image.png");
+  }
+  .moblie-contact-us-btn-box {
+    display: none;
+  }
+  .main-banner-left-text-box h1 {
+    font-size: 36px;
+  }
+  .main-banner-left-text-box p {
+    font-size: 16px;
+  }
+  .days-count-box h2 {
+    font-size: 36px;
+  }
+  .days-count-box h6 {
+    font-size: 16px;
+  }
+
+  .odft-token-left-img-box {
+    text-align: center;
+  }
+  .odft-token-right-text-box {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .odft-token-contact-btn-box {
+    display: flex;
+    justify-content: center;
+  }
+  .whitepaper-image-box {
+    display: none;
+  }
+  .tab-whitepaper-image-box {
+    display: block;
+  }
+  .tab-whitepaper-image-box img {
+    width: 353px;
+    height: 309px;
+  }
+  .document-whitepaper-left-text p {
+    width: 100%;
+  }
+  .document-whitepaper-wrap-section {
+    background: linear-gradient(0deg, #232323 0%, #232323 35%, #ebb985 100%);
+  }
+  .document-whitepaper-left-text {
+    padding-top: 0% !important;
+    padding-bottom: 44px;
+  }
+  .tab-whitepaper-image-box {
+    padding-bottom: 40px;
+  }
+  .main-heading-section-common-box.text-center h6 {
+    font-size: 16px;
+  }
+  .main-heading-section-common-box.text-center h2 {
+    font-size: 28px;
+
+    line-height: 36px;
+  }
+  .main-Buy-Administration-token-box h2 {
+    font-size: 28px;
+  }
+  .main-denomination-box h4 {
+    font-size: 22px;
+  }
+  .denomination-inner-list h5 {
+    font-size: 22px;
+  }
+  .denomination-buy-btn a {
+    font-size: 16px;
+    width: 108px;
+    height: 55px;
+  }
+  .Notice-bottom-box h6 {
+    font-size: 20px;
+  }
+  .Notice-bottom-box ul li p {
+    font-size: 16px;
+  }
+  .odft-token-wrap-section {
+    padding-top: 100px;
+  }
+  .symbol-name-right-box h4 {
+    font-size: 26px;
+    max-width: 60%;
+  }
+  .symbol-name-right-box h5 {
+    font-size: 22px;
+  }
+  .symbol-icon-left-box h5 {
+    font-size: 22px;
+    padding-top: 80px;
+  }
+  .symbol-icon-left-box img {
+    width: 136px;
+    height: 136px;
+  }
+  .dapp-heading-box h4 {
+    font-size: 22px;
+  }
+  .moblie-main-pillar-inside-warp-box {
+    display: block;
+    padding-top: 40px;
+  }
+  .main-pillar-inside-warp-box {
+    display: none;
+  }
+
+  /* pillars section same as moblie in tab code start */
+
+  .moblie-Pillars-collective-inner-box {
+    display: flex;
+    align-items: center;
+    padding-top: 43px;
+  }
+  .moblie-main-dapp-left-img img {
+    width: 129px;
+    height: 146px;
+  }
+  .moblie-dapp-heading-box {
+    margin-left: 15px;
+  }
+  .moblie-dapp-heading-box h6 {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .moblie-dapp-heading-box h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 26px;
+    width: 100%;
+    max-width: 80%;
+  }
+  .custom-width-tab-pillars {
+    width: 50%;
+  }
+  /* pillars section same as moblie in tab code end */
+
+  .token-allocation-img-box {
+    padding-top: 28px;
+  }
+  .advantages-main-heading-box h2 {
+    font-size: 28px;
+  }
+  .advantages-inner-box h4 {
+    font-size: 22px;
+  }
+  .advantages-inner-box p {
+    font-size: 16px;
+  }
+  .advantages-main-heading-box {
+    padding-bottom: 30px;
+  }
+  .Advantages-Tokenomics-Model-box {
+    padding-top: 27px;
+  }
+  .moblie-top-padding {
+    padding-top: 58px;
+  }
+  .count-wrap-box ul {
+    display: block;
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+  }
+  .count-wrap-box li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .odft-top-left-img {
+    width: 100px;
+    height: 100px;
+  }
+  .odft-bottom-right-moblie-img {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 137px;
+    height: 137px;
+    bottom: 0px;
+    z-index: 1;
+  }
+  .count-wrap-box {
+    position: relative;
+  }
+  .odft-bottom-right-img {
+    display: none;
+  }
+  /* main map section code start */
+  .main-journey-timeline-wrap-box {
+    display: none;
+  }
+
+  .tab-main-journey-timeline-wrap-box {
+    display: block;
+    padding-top: 240px;
+  }
+  .phase-bottom-icon-img-box {
+    left: -16px;
+  }
+  .custom-setting-phase-bottom-image {
+    right: -16px !important;
+  }
+  /* main map section code end */
+
+  .main-odfc-logo-box {
+    padding-top: 80px;
+  }
+  .main-element-contact-top {
+    top: -57px;
+    width: 130px;
+    height: 130px;
+  }
+  .main-element-contact-bottom {
+    width: 130px;
+    height: 130px;
+  }
+  .contact-us-left-heading-box img {
+    width: 329px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .contact-us-right-form-box {
+    padding-top: 40px;
+  }
+  .main-footer-wrap-box {
+    margin: 241px 0px 0px 0px;
+  }
+  .custom-footer-width {
+    width: 50%;
+  }
+  .custom-tab-width {
+    width: 100%;
+  }
+  .footer-main-logo-box {
+    padding-bottom: 42px;
+  }
+  .moblie-soical-icon-box {
+    display: block !important;
+  }
+  .footer-soical-icon-box ul {
+    float: left;
+    margin-top: 11px;
+  }
+  .footer-soical-icon-box ul li {
+    margin-left: 0px;
+    margin-right: 18px;
+  }
+  .footer-soical-icon-box {
+    display: none;
+  }
+  .footer-main-download-soical-box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-copyright-bottom-box {
+    margin: 0px 0px 0px 0px;
+  }
+  .copy-right-right-link-box ul li {
+    margin-left: 25px;
+  }
+  .name-symbol-heading-box h5 {
+    font-size: 20px;
+  }
+  .moblie-token-image {
+    display: block !important;
+  }
+  .moblie-token-allocation-img-inner-info-box {
+    display: block;
+  }
+  .token-allocation-img-box img {
+    display: none;
+  }
+  .moblie-token-allocation-img-inner-info-box ul li {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .custom-dot {
+    height: 19px;
+    width: 19px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+  .moblie-token-allocation-img-inner-info-box ul li p {
+    font-size: 22px;
+    color: #828282;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .custom-color-second {
+    background-color: #a020f0;
+  }
+  .custom-color-three {
+    background-color: #9bc620;
+  }
+  .custom-color-four {
+    background-color: #00c55c;
+  }
+  .custom-color-five {
+    background-color: #743aff;
+  }
+  .custom-color-six {
+    background-color: #27fff8;
+  }
+  .custom-color-seven {
+    background-color: #743aff;
+  }
+}
+@media (max-width: 767px) {
+  /* token details respoives start */
+
+  .token-title {
+    font-size: 26px;
+  }
+  .copy-icon h6 {
+    display: none;
+  }
+  .outside-border {
+    display: block;
+  }
+  .copy-icon {
+    margin-left: 0px;
+
+    border-left: 0px solid;
+    padding-left: 0px;
+    border-top: 1px solid #fff;
+
+    margin-top: 20px;
+    padding-top: 9px;
+  }
+  /* different media resoisive start */
+
+  .table-responsive.token-table-wrap {
+    overflow-x: auto;
+  }
+  .token-title {
+    font-size: 26px;
+    gap: 10px;
+  }
+  .td-icon img {
+    width: 35px;
+    height: 35px;
+  }
+  .token-title span {
+    width: 45px;
+  }
+
+  .token-details-table th,
+  .token-details-table td {
+    padding: 13px 14px;
+    font-size: 16px;
+  }
+
+  .token-details-table th {
+    width: 155px;
+  }
+
+  /* different media resoisive end */
+
+  /* token details respoives end */
+
+  /* header resposive start */
+
+  .main-logo-top {
+    display: none;
+  }
+  img.main-moblie-logo {
+    display: block;
+    width: 43px;
+    height: 46px;
+  }
+  .custom-container {
+    margin: 0px 0px;
+    padding: 0 20px;
+  }
+  .navbar-toggler-icon img {
+    width: 46px;
+    height: 46px;
+  }
+  .moblie-contact-us-btn-box {
+    display: none;
+  }
+  .main-ul-bar {
+    margin-top: 17px !important;
+  }
+
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  /* header resposive end */
+
+  /* main section resposive start */
+  .main-banner-wrap-section-top {
+    background-image: url("../images/moblie-main-banner-image.png");
+    margin: 0px 0px 0px 0px;
+    display: block;
+  }
+  .main-banner-left-text-box {
+    width: 100%;
+  }
+  .main-banner-left-text-box h1 {
+    font-size: 26px;
+    line-height: 29px;
+  }
+  .main-banner-left-text-box p {
+    font-size: 18px;
+    line-height: 28px;
+    display: none;
+  }
+  .main-banner-left-text-box {
+    text-align: center;
+    margin-top: 136px;
+  }
+  .main-heading-section-common-box.text-center h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .main-heading-section-common-box.text-center h6 {
+    font-size: 16px;
+  }
+  .count-wrap-box ul {
+    display: block;
+  }
+  .count-wrap-box ul {
+    display: block;
+    width: 100%;
+    max-width: 50%;
+    margin: auto;
+  }
+  .line-box h2 {
+    font-size: 50px;
+
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .count-wrap-box li {
+    margin: 15px;
+  }
+  .odft-top-left-img {
+    top: 162px;
+    left: 54px;
+    width: 86px;
+    height: 86px;
+  }
+  .odft-bottom-right-img {
+    display: none;
+  }
+  .count-wrap-box {
+    position: relative;
+  }
+  .odft-bottom-right-moblie-img {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 137px;
+    height: 137px;
+    bottom: 0px;
+    z-index: 1;
+  }
+  .main-Buy-Administration-token-box h2 {
+    font-size: 26px;
+  }
+  .main-denomination-box h4 {
+    font-size: 20px;
+  }
+  .denomination-inner-list h5 {
+    font-size: 20px;
+  }
+  .denomination-inner-list {
+    display: block;
+    padding-top: 56px;
+    border: none;
+  }
+  .Notice-bottom-box {
+    padding: 52px 25px;
+  }
+  .denomination-buy-btn a {
+    width: 94px;
+    height: 39px;
+  }
+  .denomination-buy-btn {
+    float: right;
+  }
+  .Notice-bottom-box h6 {
+    font-size: 16px;
+  }
+  .Notice-bottom-box ul li p {
+    font-size: 16px;
+
+    line-height: 28px;
+  }
+  .custom-dot-style {
+    margin-bottom: 20px;
+  }
+  .Notice-bottom-box ul li p {
+    width: 100%;
+  }
+  .odft-token-right-text-box h6 {
+    font-size: 16px;
+  }
+  .odft-token-right-text-box h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .odft-token-right-text-box p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .odft-token-right-text-box {
+    text-align: center;
+  }
+  .odft-token-desktop-image {
+    display: none;
+  }
+  .odft-token-moblie-image {
+    display: block;
+    width: 368px;
+    height: 368px;
+    margin: 50px 0px;
+  }
+  .odft-token-wrap-section {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+  .odft-token-contact-btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whitepaper-image-box img {
+    width: 239px;
+    height: 229px;
+  }
+  .document-whitepaper-wrap-section {
+    background: linear-gradient(180deg, #232323 0%, #232323 35%, #ebb985 100%);
+  }
+  .document-whitepaper-left-text p {
+    width: 100%;
+  }
+  .whitepaper-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 52px 0px;
+  }
+  .name-symbol-heading-box h5 {
+    font-size: 20px;
+
+    line-height: 26px;
+  }
+  .desktop-symbol-name {
+    display: none;
+  }
+  .moblie-symbol-name {
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 0px !important;
+    font-size: 22px !important;
+  }
+  .symbol-icon-left-box {
+    padding-top: 70px;
+  }
+  .name-and-symbol-wrap-box {
+    padding-top: 70px;
+  }
+  .symbol-name-right-box h4 {
+    font-size: 30px;
+
+    max-width: 90%;
+
+    line-height: 40px;
+  }
+  .desktop-symbol-name-update {
+    display: none;
+  }
+  .moblie-symbol-name-update {
+    display: block;
+    padding-top: 0px;
+  }
+  .symbol-name-right-box {
+    padding-top: 86px;
+  }
+  .moblie-symbol-name-update {
+    display: block;
+    padding-top: 0px !important;
+    padding-bottom: 30px;
+    font-size: 22px !important;
+  }
+  .main-pillar-inside-warp-box {
+    display: none;
+  }
+  .moblie-main-pillar-inside-warp-box {
+    display: block;
+  }
+  .moblie-main-dapp-left-img img {
+    width: 129px;
+    height: 146px;
+  }
+  .moblie-Pillars-collective-inner-box {
+    display: flex;
+
+    align-items: center;
+    padding-top: 43px;
+  }
+  .moblie-dapp-heading-box h6 {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .moblie-dapp-heading-box h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 26px;
+    width: 100%;
+    max-width: 80%;
+  }
+  .moblie-dapp-heading-box {
+    margin-left: 15px;
+  }
+  .main-journey-timeline-wrap-box {
+    display: none;
+  }
+  .moblie-main-journey-timeline-wrap-box {
+    display: block;
+    padding-top: 120px;
+  }
+  .moblie-main-journey-timeline-wrap-box img {
+    width: 100%;
+  }
+  .main-odfc-logo-box img {
+    width: 238px;
+    height: 233px;
+  }
+  .main-odfc-logo-box {
+    padding-top: 51px;
+  }
+  .main-element-contact-top {
+    top: -56px;
+    width: 111px;
+    height: 111px;
+  }
+  .contact-us-left-heading-box img {
+    width: 283px;
+    height: 84px;
+  }
+  .contact-us-left-heading-box p {
+    font-size: 16px;
+  }
+  .contact-us-left-heading-box {
+    text-align: center;
+  }
+  .main-element-contact-bottom {
+    bottom: -58px;
+    width: 124px;
+    height: 124px;
+    right: 20px;
+  }
+  .contact-us-right-form-box {
+    margin-top: 56px;
+  }
+  .custom-footer-width {
+    width: 50%;
+  }
+  .footer-main-links-box h5 {
+    font-size: 20px;
+  }
+  .footer-main-links-box ul li a {
+    font-size: 16px;
+  }
+  .footer-main-logo-box {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .mail-moblie {
+    display: none;
+  }
+  .footer-soical-icon-box {
+    display: none;
+  }
+  .footer-main-download-soical-box h5 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .white-paper-download-img-box {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .moblie-soical-icon-box {
+    display: block !important;
+  }
+  .moblie-ul-icons {
+    margin-top: 0px !important;
+  }
+  .moblie-ul-icons li {
+    margin-left: 0px !important;
+    margin-right: 12px !important;
+  }
+  .copy-right-right-link-box ul li a {
+    font-size: 16px;
+    font-weight: 800;
+    color: #b2b2b2;
+  }
+  .copy-right-right-link-box ul {
+    float: unset;
+    display: flex;
+    justify-content: center;
+  }
+  .copy-right-right-link-box ul li {
+    margin-left: 0px;
+    margin-right: 48px;
+  }
+  .copy-right-right-link-box ul li:last-child {
+    margin-right: 0px;
+  }
+  .copy-right-left-text-box h6 {
+    font-size: 18px;
+  }
+  .copy-right-left-text-box {
+    text-align: center;
+  }
+  .copy-right-left-text-box {
+    text-align: center;
+    margin-top: 23px;
+  }
+  .main-footer-wrap-box {
+    background-image: url(../images/moblie-footer-bg-img.png);
+    padding: 46px 40px;
+    margin: 241px 0px 0px 0px;
+  }
+  .main-copyright-bottom-box {
+    margin: 0px 0px 0px 0px;
+  }
+  .pillar-moblie-outside-img-top {
+    display: block;
+  }
+  .pillar-moblie-outside-img-top {
+    display: block !important;
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute !important;
+    top: 100px !important;
+  }
+  .Pillars-collective-empowerment-box {
+    position: relative;
+    padding-top: 120px;
+  }
+  .advantages-main-heading-box h2 {
+    font-size: 26px;
+  }
+  .advantages-inner-box h4 {
+    font-size: 22px;
+    min-height: 0px;
+  }
+  .Advantages-Tokenomics-Model-box {
+    padding-top: 50px;
+  }
+  .advantages-main-heading-box {
+    padding-bottom: 30px;
+  }
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: var(--bs-gutter-x, 1rem);
+    padding-left: var(--bs-gutter-x, 1rem);
+  }
+  .token-allocation-img-box img {
+    display: none;
+  }
+  .moblie-token-image {
+    display: block !important;
+  }
+  .token-allocation-img-box {
+    padding-top: 10px;
+  }
+  .moblie-token-allocation-img-inner-info-box {
+    display: block;
+  }
+  .moblie-token-allocation-img-inner-info-box ul li p {
+    font-size: 18px;
+    color: #828282;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .custom-dot {
+    height: 19px;
+    width: 19px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+  .moblie-token-allocation-img-inner-info-box ul li {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .custom-color-second {
+    background-color: #a020f0;
+  }
+  .custom-color-three {
+    background-color: #9bc620;
+  }
+  .custom-color-four {
+    background-color: #00c55c;
+  }
+  .custom-color-five {
+    background-color: #743aff;
+  }
+  .custom-color-six {
+    background-color: #27fff8;
+  }
+  .custom-color-seven {
+    background-color: #743aff;
+  }
+  .days-count-box h2 {
+    font-size: 36px;
+  }
+  .days-count-box h6 {
+    font-size: 16px;
+  }
+  .main-denomination-box {
+    padding: 54px 25px;
+  }
+}
+/* main section resposive end */
+
+@media (min-width: 451px) and (max-width: 767px) {
+  .odft-token-moblie-image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 450px) {
+  .pillar-moblie-outside-img-top {
+    top: 76px !important;
+  }
+  .main-footer-wrap-box {
+    padding: 30px 14px;
+  }
+  .footer-main-logo-box img {
+    width: 300px;
+    height: 45px;
+  }
+  .copy-right-right-link-box ul li {
+    margin-right: 23px;
+  }
+  .copy-right-left-text-box h6 {
+    font-size: 16px;
+  }
+  .main-banner-left-text-box p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 321px) and (max-width: 370px) {
+  .main-banner-wrap-section-top {
+    background-image: url("../images/moblie-small-main-banner-image.png");
+    margin: 0px 0px 0px 0px;
+    display: block;
+  }
+  .main-footer-wrap-box {
+    padding: 29px 8px;
+  }
+  .copy-right-right-link-box ul li {
+    margin-right: 27px;
+  }
+  .copy-right-left-text-box h6 {
+    font-size: 15px;
+  }
+  .odft-token-moblie-image {
+    width: 328px;
+    height: 328px;
+  }
+  .footer-main-logo-box img {
+    width: 300px;
+  }
+  .denomination-inner-list h5 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+  .contact-us-left-heading-box p {
+    font-size: 14px;
+  }
+  .footer-main-logo-box img {
+    width: 240px;
+    height: 33px;
+  }
+  .copy-right-right-link-box ul li {
+    margin-right: 30px;
+  }
+  .odft-token-moblie-image {
+    width: 268px;
+    height: 268px;
+  }
+  .token-title {
+    gap: 0px;
+  }
+  .main-footer-wrap-box {
+    margin: 90px 0px 0px 0px;
+  }
+  .moblie-ul-icons li {
+    margin-right: 10px !important;
+  }
+}

@@ -1,0 +1,1112 @@
+@font-face {
+  font-family: "CityWorm";
+  src: url("../fonts/CityWorm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CityWorm";
+  src: url("../fonts/cityworm-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+body,
+ul,
+li,
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1 {
+  font-family: "CityWorm", sans-serif;
+}
+body {
+  background: #151515;
+}
+/* @font-face {
+  font-family: "CityWorm";
+  src:
+    url("/fonts/CityWorm.ttf") format("ttf"),
+    url("/fonts/CityWorm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CityWorm";
+  src:
+    url("/fonts/cityworm-bold.ttf") format("ttf"),
+    url("/fonts/cityworm-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+} */
+.custom-container {
+  max-width: 1800px;
+  padding: 0 15px;
+  margin: 0px 60px;
+}
+.main-bg {
+  background-image: url("../images/main-back-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* header css code start */
+
+.main-logo-top {
+  width: 372px;
+  height: 46px;
+}
+.main-moblie-logo {
+  display: none;
+}
+.main-ul-bar {
+  border: 0.5px solid #fff;
+  border-radius: 39px;
+  padding: 18px 21px 18px 21px;
+  background: #010310;
+}
+.main-li-bar {
+  margin: 0px 35px 0px 35px;
+}
+.headermaintopnavbar {
+  padding: 22px 0px 22px 0px;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+.main-ul-li-a-link {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.main-ul-li-a-link.active {
+  color: #ebb985;
+}
+.contact-us-btn-box a {
+  background: #fff;
+  font-size: 18px;
+  color: #3b3b3b;
+  border-radius: 39px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 163px;
+  height: 60px;
+}
+.contact-us-btn-header-icon {
+  color: #ebb985;
+}
+.contact-us-btn-box a:hover {
+  background: #ebb985;
+  color: #fff;
+}
+.contact-us-btn-box a:hover .contact-us-btn-header-icon {
+  color: #fff;
+}
+/* header css code end */
+
+/* main section css start */
+
+/* main banner section css start */
+
+.main-banner-wrap-section-top {
+  background-image: url("../images/main-top-section-bg-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 0px 15px 0px 15px;
+}
+
+/* new css start banner section descrption text tempory */
+.main-banner-left-text-box p {
+  font-size: 22px;
+  position: absolute;
+  bottom: 56px;
+  width: 55%;
+}
+/* new css end banner section descrption text tempory */
+
+.main-banner-left-text-box h1 {
+  font-size: 44px;
+  color: #fff;
+  line-height: 49px;
+  font-weight: 400;
+}
+.main-banner-left-text-box {
+  width: 80%;
+}
+
+.main-heading-section-common-box.text-center {
+  padding-top: 40px;
+}
+
+.main-heading-section-common-box.text-center h6 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+.main-heading-section-common-box.text-center h2 {
+  font-size: 44px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 52px;
+}
+.count-wrap-box ul {
+  display: inline-flex;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: #010310;
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+}
+.count-wrap-box {
+  margin-top: 101px;
+}
+.days-count-box h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 400;
+}
+.days-count-box h6 {
+  font-size: 20px;
+  color: #828282;
+}
+.days-count-box {
+  text-align: center;
+}
+.line-box h2 {
+  font-size: 50px;
+  color: #fff;
+}
+.count-wrap-box li {
+  list-style: none;
+  margin: 35px;
+}
+.main-Buy-Administration-token-box {
+  padding-top: 80px;
+}
+.main-Buy-Administration-token-box h2 {
+  font-size: 44px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+.main-denomination-box h4 {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+.denomination-inner-list {
+  display: flex;
+  padding-top: 40px;
+  border-bottom: 0.5px solid #707070;
+  padding-bottom: 38px;
+  align-items: center;
+  justify-content: center;
+}
+.denomination-inner-list:last-child {
+  border-bottom: none;
+}
+.denomination-inner-list h5 {
+  font-size: 36px;
+  color: #fff;
+}
+.denomination-buy-btn a {
+  font-size: 18px;
+  background: #ebb985;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 124px;
+  height: 60px;
+  border-radius: 34px;
+}
+.denomination-buy-btn {
+  /* float: right; */
+  margin-left: auto;
+}
+.main-denomination-box {
+  margin-top: 4;
+  padding: 98px 65px;
+  background: #010310;
+  -webkit-backdrop-filter: blur(13px) !important;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(13px);
+  margin-top: 41px;
+  border-radius: 20px;
+}
+.custom-color-denomination-heading {
+  color: #ebb985;
+}
+.Notice-bottom-box h6 {
+  font-size: 28px;
+  color: #fff;
+}
+.Notice-bottom-box {
+  padding: 52px 65px;
+}
+.Notice-bottom-box ul li p {
+  font-size: 22px;
+  color: #fff;
+}
+s .Notice-bottom-box ul {
+  padding-top: 30px;
+}
+
+.Notice-bottom-box ul {
+  padding-top: 30px;
+}
+.custom-dot-style::marker {
+  color: #ebb985;
+  font-size: 20px;
+}
+
+.main-odft-wrap-section {
+  position: relative;
+}
+.odft-top-left-img {
+  position: absolute;
+  top: 125px;
+  left: 180px;
+  width: 200px;
+  height: 200px;
+}
+.odft-bottom-right-img {
+  position: absolute;
+  right: 120px;
+  width: 237px;
+  height: 237px;
+  top: 280px;
+}
+.odft-bottom-right-moblie-img {
+  display: none;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #ebb985;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.custom-dot-style {
+  display: flex;
+  align-items: center;
+}
+.notice-list-color-special-text {
+  color: #ebb985;
+}
+
+/* token detail section css start */
+
+.copy-icon img {
+  width: 40px;
+  height: 40px;
+}
+.copy-icon {
+  margin-left: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid;
+  padding-left: 10px;
+}
+.outside-border a {
+  text-decoration: none;
+  color: #fff;
+}
+.copy-icon h6 {
+  color: #ebb985;
+  font-size: 17px;
+}
+.outside-border {
+  border: 1px solid #ebb985;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+}
+
+.main-token-detail-section {
+  padding-top: 120px;
+}
+.token-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  color: #ebb985;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.token-title span {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    rgba(243, 189, 123, 0.1),
+    rgba(243, 189, 123, 0.4),
+    #ebb985
+  );
+}
+span.right-side-border {
+  background: linear-gradient(
+    to left,
+    rgba(243, 189, 123, 0.1),
+    rgba(243, 189, 123, 0.4),
+    #ebb985
+  );
+}
+.td-icon img {
+  width: 40px;
+  height: 40px;
+}
+.polygon-icon img {
+  width: 35px;
+  height: 35px;
+}
+.token-table-wrap {
+  background: #1f1f1f;
+  border: 1px solid #343434;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.token-details-table {
+  color: #fff;
+  background: transparent;
+}
+
+.token-details-table tr {
+  border-bottom: 1px solid #303030;
+}
+
+.token-details-table tr:last-child {
+  border-bottom: none;
+}
+
+.token-details-table th,
+.token-details-table td {
+  padding: 16px 22px;
+  vertical-align: middle;
+  background: transparent;
+  color: #fff;
+  font-size: 28px;
+  border-bottom-width: 0px !important;
+}
+
+.token-details-table th {
+  width: 225px;
+  color: #ebb985;
+  font-weight: 500;
+  border-right: 1px solid #303030;
+  white-space: nowrap;
+  font-size: 28px;
+}
+
+.td-icon {
+  display: inline-block;
+  width: 24px;
+  margin-right: 34px;
+  color: #f3bd7b;
+}
+
+.polygon-icon {
+  color: #9b4dff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.contract-address {
+  word-break: break-all;
+}
+
+@media (max-width: 575px) {
+  .token-title {
+    font-size: 22px;
+    gap: 10px;
+  }
+
+  .token-title span {
+    width: 45px;
+  }
+
+  .token-details-table th,
+  .token-details-table td {
+    padding: 13px 14px;
+    font-size: 14px;
+  }
+
+  .token-details-table th {
+    width: 155px;
+  }
+}
+
+/* token detail section css end */
+
+/* odft token section css start */
+
+.odft-token-left-img-box img {
+  height: 621px;
+}
+.odft-token-moblie-image {
+  display: none;
+}
+.odft-token-wrap-section {
+  padding-top: 200px;
+}
+.odft-token-right-text-box h6 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.odft-token-right-text-box {
+  margin-top: 80px;
+}
+
+.odft-token-right-text-box h2 {
+  font-size: 44px;
+  color: #fff;
+  font-weight: 600;
+  /* width: 72%; */
+}
+.odft-token-right-text-box p {
+  font-size: 22px;
+  color: #828282;
+  /* width: 70%; */
+}
+.odft-token-contact-btn-box {
+  padding-top: 40px;
+}
+.odft-token-contact-btn-box a {
+  background: #ebb985;
+  color: #fff;
+}
+.odft-token-contact-btn-box a:hover {
+  color: #ebb985 !important;
+  background: #fff !important;
+}
+/* odft token section css end */
+
+/* document whitepaper section css start */
+
+.whitepaper-image-box img {
+  width: 553px;
+  height: 509px;
+}
+.document-whitepaper-left-text p {
+  width: 88%;
+}
+.whitepaper-image-box {
+  text-align: end;
+}
+.tab-whitepaper-image-box {
+  display: none;
+}
+.document-whitepaper-wrap-section {
+  margin-top: 12%;
+  background: linear-gradient(90deg, #232323 0%, #232323 35%, #ebb985 100%);
+  padding: 40px 0px;
+  border-top: 0.5px solid #ffffff;
+  border-bottom: 0.5px solid #ffffff;
+}
+
+/* document whitepaper section css end */
+
+/* name and symbol section css start */
+
+.name-and-symbol-wrap-box {
+  padding-top: 150px;
+}
+.name-symbol-heading-box h5 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+}
+.symbol-icon-left-box img {
+  width: 186px;
+  height: 186px;
+}
+.symbol-icon-left-box {
+  text-align: center;
+  padding-top: 150px;
+}
+.symbol-icon-left-box h5 {
+  font-size: 26px;
+  font-style: italic;
+  color: #7d7d7d;
+  padding-top: 90px;
+}
+.moblie-symbol-name {
+  display: none;
+}
+.symbol-name-right-box h4 {
+  font-size: 36px;
+  color: #fff;
+  width: 100%;
+  max-width: 52%;
+  margin: auto;
+  font-style: italic;
+  font-weight: 400;
+}
+.symbol-name-right-box {
+  padding-top: 150px;
+  text-align: center;
+}
+.symbol-name-right-box h5 {
+  font-size: 26px;
+  font-style: italic;
+  color: #7d7d7d;
+  padding-top: 90px;
+}
+.moblie-symbol-name-update {
+  display: none;
+}
+/* name and symbol section css end */
+
+/* pillar of collective section css start */
+
+.pillar-moblie-outside-img-top {
+  display: none !important;
+}
+
+.dapp-upper-img-box img {
+  width: 165px;
+  height: 187px;
+}
+
+.dapp-lower-img-box img {
+  width: 196px;
+  height: 255px;
+}
+.Pillars-collective-inner-box {
+  text-align: center;
+  padding-top: 80px;
+}
+.dapp-heading-box h6 {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 400;
+}
+.dapp-heading-box h4 {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.middle-odfc-heading-box {
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+}
+.dapp-upper-img-box {
+  position: relative;
+}
+.hover-show-text {
+  position: absolute;
+  top: 26px;
+}
+.hover-show-text p {
+  font-size: 18px;
+  color: #828282;
+  font-weight: 300;
+}
+.hover-show-text {
+  position: absolute;
+  top: 0px;
+  display: none;
+  padding: 26px 0px;
+}
+.main-dapp-img-box:hover .dapp-upper-img-box img {
+  display: none;
+}
+.main-dapp-img-box:hover .hover-show-text {
+  display: block;
+  position: relative;
+}
+.main-pillar-inside-warp-box {
+  margin-top: 140px;
+}
+.moblie-main-pillar-inside-warp-box {
+  display: none;
+}
+/* pillar of collective section css end */
+
+/* Token allocation funds section css start */
+
+.token-allocation-img-box {
+  padding-top: 80px;
+}
+
+.token-allocation-img-box img {
+  width: 100%;
+}
+.moblie-token-image {
+  display: none;
+}
+.main-token-allocation-img-info-box {
+  margin-top: 50px;
+}
+.token-funds-heading-btn-box h5 {
+  font-size: 36px;
+  color: #fff;
+}
+.token-funds-heading-btn-box {
+  margin-top: 45px;
+}
+.token-allocation-funds-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantages-main-heading-box h2 {
+  font-size: 44px;
+  color: #ebb985;
+  font-weight: 600;
+}
+.Advantages-Tokenomics-Model-box {
+  padding-top: 80px;
+}
+.advantages-inner-box h4 {
+  font-size: 28px;
+  color: #fff;
+  min-height: 67px;
+}
+.advantages-main-heading-box {
+  padding-bottom: 51px;
+}
+.moblie-token-allocation-img-inner-info-box {
+  display: none;
+}
+.advantages-inner-box p {
+  font-size: 18px;
+  color: #828282;
+  font-weight: 400;
+  margin-top: 14px;
+}
+.no-min-height {
+  min-height: 0px !important;
+}
+.advantages-inner-box {
+  margin-bottom: 37px;
+}
+.no-bottm-margin {
+  margin-bottom: 0px !important;
+}
+/* Token allocation funds section css end */
+
+/* odfc main heading and logo section css start */
+
+.odfc-main-logo-section h2 {
+  width: 100%;
+  max-width: 92%;
+  margin: auto;
+}
+.main-odfc-logo-box img {
+  width: 303px;
+  height: 296px;
+}
+.main-odfc-logo-box {
+  text-align: center;
+  padding-top: 122px;
+}
+.odfc-main-logo-box {
+  padding-bottom: 150px;
+}
+
+/* odfc middle image css start */
+
+.odfc-upper-image-box img {
+  width: 237.82px;
+  height: 270.34px;
+}
+.odfc-lower-image-box img {
+  width: 256px;
+  height: 333px;
+}
+.odfc-upper-image-box {
+  position: relative;
+}
+.odfc-hover-show-text {
+  position: absolute;
+  top: 0px;
+  padding: 130px 0px 32.55px 0px;
+  display: none;
+}
+.odfc-hover-show-text p {
+  font-size: 18px;
+  color: #828282;
+  font-weight: 300;
+  width: 100%;
+  max-width: 56%;
+  margin: auto;
+}
+.odfc-piller-middel-main-box {
+  text-align: center;
+  margin-top: -120px;
+}
+
+.main-dapp-img-box:hover .odfc-upper-image-box img {
+  display: none;
+}
+.main-dapp-img-box:hover .odfc-hover-show-text {
+  display: block;
+  position: relative;
+}
+/* odfc middle image css end */
+
+/* odfc main heading and logo section css end */
+
+/* phase journey section css start */
+
+.phase-inner-box h4 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.phase-inner-box {
+  /* background: #010310; */
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 40px;
+  min-height: 550px;
+  position: relative;
+  /* backdrop-filter: blur(13px); */
+  -webkit-backdrop-filter: blur(13px);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.phase-inner-box p {
+  font-size: 18px;
+  color: #828282;
+  font-weight: 400;
+  margin-top: 14px;
+  min-height: 277px;
+}
+.main-journey-timeline-wrap-box {
+  margin-top: 25%;
+}
+.tab-main-journey-timeline-wrap-box {
+  display: none;
+}
+.moblie-main-journey-timeline-wrap-box {
+  display: none;
+}
+.top-pahse-icon-box {
+  position: absolute;
+  top: -155px;
+}
+.top-pahse-icon-box img {
+  width: 62px;
+  height: 147px;
+}
+.top-pahse-icon-box h6 {
+  font-size: 22px;
+  color: #fff;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-left: 27px;
+}
+.phase-bottom-icon-img-box img {
+  width: 203px;
+  height: 203px;
+  transition: 0.3s ease;
+}
+.phase-bottom-icon-img-box {
+  position: absolute;
+  left: -80px;
+}
+.phase-inner-box:hover .phase-bottom-icon-img-box img {
+  transform: scale(1.1);
+}
+.custom-phase-inner-box {
+  margin-top: 350px;
+}
+
+.custom-setting-phase-bottom-image {
+  right: -80px !important;
+  position: absolute;
+  /* bottom: -159px; */
+}
+.custom-setting-phase-bottom-image img {
+  width: 203px;
+  height: 203px;
+  transition: 0.3s ease;
+}
+.phase-inner-box:hover .custom-setting-phase-bottom-image img {
+  transform: scale(1.1);
+}
+
+/* timeline-lines css start */
+
+/* .timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: #c9a76a;
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  background: #c9a76a;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+}
+
+.timeline-dot.second {
+  top: 200px;
+}
+
+.timeline-dot.third {
+  top: 400px;
+}
+
+.timeline-dot.fourth {
+  top: 600px;
+} */
+.main-roadmap-line-center img {
+  width: 121px;
+}
+/* timeline-lines css end */
+
+/* phase journey section css end */
+
+/* main contact-us form section css start */
+
+.main-contact-us-form-box {
+  background-image: url("../images/contact-us-box-form-bg-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 109px 0px;
+  position: relative;
+}
+.contact-us-left-heading-box img {
+  width: 429px;
+  height: 127px;
+  margin-bottom: 40px;
+}
+.contact-us-left-heading-box p {
+  font-size: 20px;
+  color: #eeeeee;
+  font-weight: 200;
+}
+.contact-us-left-heading-box p span {
+  color: #ebb985;
+}
+.custom-from-group {
+  padding-bottom: 18px;
+}
+/* .custom-contact-us-input-field {
+  height: 63px;
+  font-size: 14px;
+  color: #a2a2a2;
+  border: none;
+  border-radius: 9px;
+  padding-left: 21px;
+} */
+.custom-contact-us-input-field {
+  height: 63px;
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding-left: 21px;
+  background: rgba(255, 255, 255, 0.18);
+  font-weight: 300;
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+}
+.custom-contact-us-input-field::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-contact-us-text-field {
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding-left: 21px;
+  background: rgba(255, 255, 255, 0.18);
+  font-weight: 300;
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  padding-top: 23px;
+}
+.custom-contact-us-text-field::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.custom-contact-us-input-field:focus {
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+  outline: 0;
+  box-shadow: unset;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+}
+.custom-contact-us-text-field:focus {
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+  outline: 0;
+  box-shadow: unset;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+}
+.main-element-contact-top {
+  position: absolute;
+  top: -90px;
+  width: 200px;
+  height: 200px;
+  left: 40px;
+}
+
+.main-element-contact-bottom {
+  position: absolute;
+  bottom: -90px;
+  width: 200px;
+  height: 200px;
+  right: 80px;
+}
+
+/* main contact-us form section css end */
+
+/* main banner section css end */
+
+/* footer section css start */
+
+.footer-main-logo-box img {
+  width: 323px;
+  height: 46px;
+}
+.main-footer-wrap-box {
+  background-image: url(../images/footer-bg-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 46px 0px;
+  position: relative;
+  margin: 241px 15px 0px 15px;
+  border-radius: 30px 30px 0px 0px;
+}
+.white-paper-download-img-box img {
+  width: 102px;
+  height: 88px;
+}
+.footer-main-links-box h5 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+}
+.moblie-soical-icon-box {
+  display: none;
+}
+.footer-main-links-box ul li a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+}
+.footer-main-links-box ul {
+  margin-top: 23px;
+}
+.footer-main-links-box ul li {
+  list-style: none;
+  margin-bottom: 22px;
+}
+.footer-main-links-box ul li a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.footer-main-download-soical-box h5 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+  text-align: end;
+}
+.white-paper-download-img-box {
+  text-align: end;
+  margin-top: 23px;
+  margin-right: 61px;
+}
+.footer-soical-icon-box ul li {
+  display: inline-block;
+}
+.footer-soical-icon-box ul li a img {
+  width: 34px;
+  height: 40px;
+}
+
+.footer-soical-icon-box ul {
+  float: right;
+  margin-top: 68px;
+}
+.footer-soical-icon-box ul li {
+  display: inline-block;
+  margin-left: 16px;
+}
+.main-copyright-bottom-box {
+  background: #ffffff;
+  margin: 0px 15px 0px 15px;
+}
+.copy-right-left-text-box h6 {
+  font-size: 16px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+.copy-right-right-link-box ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.copy-right-right-link-box ul {
+  float: right;
+}
+.copy-right-right-link-box ul li a {
+  font-size: 16px;
+  color: #3b3b3b;
+  font-weight: 600;
+  text-decoration: none;
+}
+.main-copyright-bottom-box {
+  background: #ffffff;
+  margin: 0px 15px 0px 15px;
+  padding: 26px 0px;
+}
+/* footer section css end */
