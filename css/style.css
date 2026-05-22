@@ -32,6 +32,7 @@ h1 {
 body {
   background: #151515;
 }
+
 /* @font-face {
   font-family: "CityWorm";
   src:
@@ -65,6 +66,60 @@ body {
 
 /* header css code start */
 
+/* top header menu fix and active menu link css start */
+
+/* Normal header */
+.headermaintopnavbar {
+  width: 100%;
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+/* Header fixed only after scroll */
+.headermaintopnavbar.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+  width: 100%;
+  z-index: 9999;
+}
+
+/* Default menu color */
+/* .main-ul-li-a-link {
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
+
+/* Only active menu color */
+/* .main-ul-li-a-link.active {
+  color: #f2bc84 !important;
+} */
+*/ .headermaintopnavbar .main-ul-li-a-link {
+  color: #ffffff !important;
+}
+
+.headermaintopnavbar .main-ul-li-a-link.active {
+  color: #f2bc84 !important;
+}
+
+/* Prevent section hiding behind fixed header */
+/* section {
+  scroll-margin-top: 120px;
+} */
+
+/* top header menu fix and active menu link css end */
+
+/* contact us top right css start */
+
+.contact-us-btn-box.moblie-contact-us-btn-box {
+  opacity: 0;
+}
+
+/* contact us top right css end */
+
 .main-logo-top {
   width: 372px;
   height: 46px;
@@ -77,6 +132,7 @@ body {
   border-radius: 39px;
   padding: 18px 21px 18px 21px;
   background: #010310;
+  margin: auto;
 }
 .main-li-bar {
   margin: 0px 35px 0px 35px;
@@ -92,6 +148,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+}
+
+.main-ul-li-a-link:hover {
+  color: #f2bc84;
+}
+.main-ul-li-a-link:focus {
+  color: #f2bc84;
 }
 .main-ul-li-a-link.active {
   color: #ebb985;
@@ -218,7 +281,7 @@ body {
 }
 
 .denomination-inner-list {
-  display: flex;
+  display: inherit;
   padding-top: 40px;
   border-bottom: 0.5px solid #707070;
   padding-bottom: 38px;
@@ -333,6 +396,7 @@ s .Notice-bottom-box ul {
   align-items: center;
   border-left: 1px solid;
   padding-left: 10px;
+  border-color: #fff;
 }
 .outside-border a {
   text-decoration: none;
@@ -415,7 +479,7 @@ span.right-side-border {
   vertical-align: middle;
   background: transparent;
   color: #fff;
-  font-size: 28px;
+  font-size: 26px;
   border-bottom-width: 0px !important;
 }
 
@@ -444,6 +508,41 @@ span.right-side-border {
 .contract-address {
   word-break: break-all;
 }
+
+/* copy btn css start */
+
+.copy-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.copy-popup {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #1f1f1f;
+  color: #f2bc84;
+  border: 1px solid #f2bc84;
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.copy-popup.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* copy btn css end  */
 
 @media (max-width: 575px) {
   .token-title {
@@ -1076,7 +1175,8 @@ span.right-side-border {
 
 .footer-soical-icon-box ul {
   float: right;
-  margin-top: 68px;
+  margin-top: 30px;
+  margin-right: 44px;
 }
 .footer-soical-icon-box ul li {
   display: inline-block;
@@ -1107,6 +1207,6 @@ span.right-side-border {
 .main-copyright-bottom-box {
   background: #ffffff;
   margin: 0px 15px 0px 15px;
-  padding: 26px 0px;
+  padding: 20px 0px;
 }
 /* footer section css end */

@@ -135,7 +135,7 @@
     height: 55px;
   }
   .denomination-inner-list {
-    display: flex;
+    display: inherit;
     justify-content: center;
     align-items: center;
     padding-top: 27px;
@@ -359,9 +359,12 @@
 
   .token-details-table th,
   .token-details-table td {
-    font-size: 22px;
+    font-size: 18px;
   }
-
+  .copy-icon img {
+    width: 30px;
+    height: 30px;
+  }
   .td-icon {
     margin-right: 25px;
   }
@@ -403,6 +406,10 @@
     font-size: 16px;
     width: 153px;
     height: 55px;
+  }
+  .contact-us-btn-box.moblie-contact-us-btn-box {
+    opacity: 0;
+    display: none;
   }
   .main-ul-bar {
     padding: 14px 14px 14px 14px;
@@ -466,7 +473,7 @@
     height: 55px;
   }
   .denomination-inner-list {
-    display: flex;
+    display: inherit;
     justify-content: center;
     align-items: center;
     padding-top: 27px;
@@ -525,7 +532,14 @@
     font-size: 22px;
   }
   .symbol-name-right-box {
-    padding-top: 200px;
+    padding-top: 126px;
+  }
+  .footer-main-logo-box img {
+    width: 260px;
+    height: 40px;
+  }
+  .symbol-icon-left-box {
+    padding-top: 100px;
   }
   .dapp-heading-box h4 {
     font-size: 22px;
@@ -678,7 +692,12 @@
     padding-top: 50px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
+  .main-ul-bar {
+    margin-top: 20px;
+  }
+
   /* token details media start */
 
   .token-title {
@@ -690,7 +709,7 @@
   }
   .token-details-table th,
   .token-details-table td {
-    font-size: 22px;
+    font-size: 18px;
   }
   .copy-icon h6 {
     display: none;
@@ -879,7 +898,7 @@
   .count-wrap-box ul {
     display: block;
     width: 100%;
-    max-width: 70%;
+    max-width: 40%;
     margin: auto;
   }
   .count-wrap-box li {
@@ -1076,6 +1095,24 @@
     font-size: 16px;
   }
 
+  /* copy address small css code start */
+
+  .contract-text {
+    max-width: 130px;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  /* copy address small css code  end */
+
   .token-details-table th {
     width: 155px;
   }
@@ -1156,7 +1193,7 @@
   .count-wrap-box ul {
     display: block;
     width: 100%;
-    max-width: 50%;
+    max-width: 37%;
     margin: auto;
   }
   .line-box h2 {
@@ -1202,8 +1239,9 @@
   }
   .denomination-inner-list {
     display: block;
-    padding-top: 56px;
+    padding-top: 41px;
     border: none;
+    padding-bottom: 12px;
   }
   .Notice-bottom-box {
     padding: 52px 25px;
@@ -1426,6 +1464,9 @@
   .moblie-ul-icons {
     margin-top: 0px !important;
   }
+  .footer-soical-icon-box ul {
+    float: inherit;
+  }
   .moblie-ul-icons li {
     margin-left: 0px !important;
     margin-right: 12px !important;
@@ -1453,14 +1494,14 @@
   .copy-right-left-text-box {
     text-align: center;
   }
-  .copy-right-left-text-box {
+  /* .copy-right-left-text-box {
     text-align: center;
     margin-top: 23px;
-  }
+  } */
   .main-footer-wrap-box {
     background-image: url(../images/moblie-footer-bg-img.png);
     padding: 46px 40px;
-    margin: 241px 0px 0px 0px;
+    margin: 152px 0px 0px 0px;
   }
   .main-copyright-bottom-box {
     margin: 0px 0px 0px 0px;
@@ -1591,8 +1632,63 @@
   .main-banner-left-text-box p {
     font-size: 17px;
   }
+  .contact-us-left-heading-box p {
+    font-size: 14px;
+  }
 }
 @media (min-width: 321px) and (max-width: 370px) {
+  .main-heading-section-common-box.text-center h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .denomination-inner-list h5 {
+    font-size: 18px;
+  }
+  .odft-token-right-text-box h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .odft-token-right-text-box p {
+    font-size: 14px;
+  }
+  .main-banner-left-text-box h1 {
+    font-size: 22px;
+  }
+  .name-symbol-heading-box h5 {
+    font-size: 16px;
+  }
+  .symbol-name-right-box h4 {
+    font-size: 18px;
+
+    line-height: 26px;
+  }
+  .moblie-dapp-heading-box h4 {
+    font-size: 18px;
+
+    max-width: 100%;
+  }
+  .advantages-main-heading-box h2 {
+    font-size: 18px;
+  }
+  .advantages-inner-box h4 {
+    font-size: 18px;
+  }
+  .advantages-inner-box p {
+    font-size: 16px;
+  }
+  .main-odfc-logo-box img {
+    width: 200px;
+    height: 200px;
+  }
+  .footer-main-logo-box img {
+    width: 269px;
+  }
+  .main-Buy-Administration-token-box h2 {
+    font-size: 18px;
+  }
+  .token-title {
+    font-size: 19px;
+  }
   .main-banner-wrap-section-top {
     background-image: url("../images/moblie-small-main-banner-image.png");
     margin: 0px 0px 0px 0px;
@@ -1608,14 +1704,20 @@
     font-size: 15px;
   }
   .odft-token-moblie-image {
-    width: 328px;
-    height: 328px;
+    width: 280px;
+    height: 280px;
   }
   .footer-main-logo-box img {
     width: 300px;
   }
   .denomination-inner-list h5 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+  }
+  .denomination-inner-list {
+    padding-bottom: 0px;
+  }
+  .contact-us-left-heading-box p {
+    font-size: 14px;
   }
 }
 
@@ -1642,5 +1744,11 @@
   }
   .moblie-ul-icons li {
     margin-right: 10px !important;
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+  .token-details-table th,
+  .token-details-table td {
+    font-size: 18px;
   }
 }

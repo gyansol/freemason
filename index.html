@@ -30,7 +30,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <title>Digital Freemasonry</title>
+    <title>index</title>
   </head>
   <body>
     <div class="main-bg">
@@ -69,42 +69,29 @@
                       class="collapse navbar-collapse"
                       id="navbarSupportedContent"
                     >
-                      <ul class="navbar-nav m-auto main-ul-bar">
+                      <ul class="navbar-nav main-ul-bar">
                         <li class="nav-item main-li-bar">
                           <a
-                            class="nav-link active main-ul-li-a-link"
+                            class="nav-link main-ul-li-a-link"
                             aria-current="page"
-                            href="#"
+                            href="#home"
                             >HOME</a
                           >
                         </li>
+
                         <li class="nav-item main-li-bar">
-                          <a class="nav-link main-ul-li-a-link" href="#"
-                            >FEATURE</a
-                          >
-                        </li>
-                        <li class="nav-item main-li-bar">
-                          <a class="nav-link main-ul-li-a-link" href="#"
-                            >FEATURE</a
-                          >
-                        </li>
-                        <li class="nav-item main-li-bar">
-                          <a class="nav-link main-ul-li-a-link" href="#"
+                          <a class="nav-link main-ul-li-a-link" href="#symbol"
                             >SYMBOL</a
                           >
                         </li>
                         <li class="nav-item main-li-bar">
-                          <a class="nav-link main-ul-li-a-link" href="#"
+                          <a class="nav-link main-ul-li-a-link" href="#roadmap"
                             >ROADMAP</a
                           >
                         </li>
+
                         <li class="nav-item main-li-bar">
-                          <a class="nav-link main-ul-li-a-link" href="#"
-                            >CHART</a
-                          >
-                        </li>
-                        <li class="nav-item main-li-bar">
-                          <a class="nav-link main-ul-li-a-link" href="#"
+                          <a class="nav-link main-ul-li-a-link" href="#contact"
                             >CONTACT</a
                           >
                         </li>
@@ -112,12 +99,9 @@
                       <div class="contact-us-btn-box moblie-contact-us-btn-box">
                         <a href="#"
                           >Contact Us
-                          <!-- <img
-                              src="images/contatc-us-icon.svg"
-                              class="ms-2"
-                            /> -->
+                          <img src="images/contatc-us-icon.svg" class="ms-2" />
 
-                          <svg
+                          <!-- <svg
                             class="ms-2 contact-us-btn-header-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -163,7 +147,7 @@
                                 />
                               </g>
                             </g>
-                          </svg>
+                          </svg> -->
                         </a>
                       </div>
                     </div>
@@ -175,7 +159,7 @@
         </div>
       </header>
       <main>
-        <div class="main-banner-wrap-section-top">
+        <div id="home" class="main-banner-wrap-section-top">
           <div class="custom-container">
             <div class="row">
               <div class="col-md-6 custom-tab-width">
@@ -319,22 +303,89 @@
                             <td>6</td>
                           </tr>
 
-                          <tr>
+                          <!-- <tr>
                             <th>
                               <span class="td-icon">
                                 <img src="images/sales-update-icon.png" />
                               </span>
-                              SALES CONTRACT
+                              TOKEN CONTRACT
                             </th>
                             <td class="contract-address">
                               <div class="outside-border">
-                                0xdb3E29E386620441D13055521e7fC4c9e2343224
+                                0x41e69596194F1c0baD250170ba6C8B1342c4Ba0B
                                 <a href="#">
                                   <span class="copy-icon"
                                     ><img src="images/copy-icon-update.png" />
                                     <h6>Copy</h6>
                                   </span>
                                 </a>
+                              </div>
+                            </td>
+                          </tr> -->
+
+                          <tr>
+                            <th>
+                              <span class="td-icon">
+                                <img
+                                  src="images/sales-update-icon.png"
+                                  alt="Token Contract Icon"
+                                />
+                              </span>
+                              TOKEN CONTRACT
+                            </th>
+
+                            <td class="contract-address">
+                              <div class="outside-border">
+                                <span
+                                  id="tokenContractAddress"
+                                  class="contract-text"
+                                >
+                                  0x41e69596194F1c0baD250170ba6C8B1342c4Ba0B
+                                </span>
+
+                                <button
+                                  type="button"
+                                  class="copy-btn"
+                                  onclick="copyTokenContract()"
+                                >
+                                  <span class="copy-icon">
+                                    <img
+                                      src="images/copy-icon-update.png"
+                                      alt="Copy Icon"
+                                    />
+                                    <h6>Copy</h6>
+                                  </span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <th>
+                              <span class="td-icon">
+                                <img
+                                  src="images/sales-update-icon.png"
+                                  alt="Sales Contract Icon"
+                                />
+                              </span>
+                              SALES CONTRACT
+                            </th>
+
+                            <td class="contract-address">
+                              <div class="outside-border">
+                                <span class="contract-text">
+                                  0X5E17B14ADD6C386305A32928F985B29BBA34EFF5
+                                </span>
+
+                                <button type="button" class="copy-btn">
+                                  <span class="copy-icon">
+                                    <img
+                                      src="images/copy-icon-update.png"
+                                      alt="Copy Icon"
+                                    />
+                                    <h6>Copy</h6>
+                                  </span>
+                                </button>
                               </div>
                             </td>
                           </tr>
@@ -368,9 +419,9 @@
                         >
                         = 1 USDT (trc20) No disscount
                       </h5>
-                      <div class="denomination-buy-btn">
+                      <!-- <div class="denomination-buy-btn">
                         <a href="#">Buy</a>
-                      </div>
+                      </div> -->
                     </div>
                     <div class="denomination-inner-list">
                       <h5>
@@ -379,9 +430,9 @@
                         >
                         = 8 USDT (1 ODFT = 0.80 USDT, -20%)
                       </h5>
-                      <div class="denomination-buy-btn">
+                      <!-- <div class="denomination-buy-btn">
                         <a href="#">Buy</a>
-                      </div>
+                      </div> -->
                     </div>
                     <div class="denomination-inner-list">
                       <h5>
@@ -390,9 +441,9 @@
                         </span>
                         = 35 USDT (1 ODFT = 0.70 USDT, -30%)
                       </h5>
-                      <div class="denomination-buy-btn">
+                      <!-- <div class="denomination-buy-btn">
                         <a href="#">Buy</a>
-                      </div>
+                      </div> -->
                     </div>
                     <div class="denomination-inner-list">
                       <h5>
@@ -401,9 +452,9 @@
                         </span>
                         = 60 USDT (1 ODFT = 0.60 USDT, -40%)
                       </h5>
-                      <div class="denomination-buy-btn">
+                      <!-- <div class="denomination-buy-btn">
                         <a href="#">Buy</a>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -422,9 +473,9 @@
                         </span>
                         = 100 USDT (1 ODFT = 0.50 USDT, -50%)
                       </h5>
-                      <div class="denomination-buy-btn">
+                      <!-- <div class="denomination-buy-btn">
                         <a href="#">Buy</a>
-                      </div>
+                      </div> -->
                     </div>
                     <div class="denomination-inner-list">
                       <h5>
@@ -433,9 +484,9 @@
                         </span>
                         = 90 USDT (1 ODFT = 0.30 USDT, -70%)
                       </h5>
-                      <div class="denomination-buy-btn">
+                      <!-- <div class="denomination-buy-btn">
                         <a href="#">Buy</a>
-                      </div>
+                      </div> -->
                     </div>
                     <div class="denomination-inner-list">
                       <h5>
@@ -444,9 +495,9 @@
                         </span>
                         = 50 USDT (1 ODFT = 0.10 USDT, -90%)
                       </h5>
-                      <div class="denomination-buy-btn">
+                      <!-- <div class="denomination-buy-btn">
                         <a href="#">Buy</a>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -534,7 +585,7 @@
                   </p>
 
                   <div class="contact-us-btn-box odft-token-contact-btn-box">
-                    <a href="#"
+                    <a href="#contact"
                       >Contact Us
                       <!-- <img
                         src="images/odft-token-contact-btn-icon.svg"
@@ -633,7 +684,9 @@
                   </p>
 
                   <div class="contact-us-btn-box odft-token-contact-btn-box">
-                    <a  href="images/ODFT-WhitePaper.pdf" target="_blank">Download</a>
+                    <a href="images/ODFT-WhitePaper.pdf" target="_blank"
+                      >Download</a
+                    >
                   </div>
                 </div>
               </div>
@@ -646,7 +699,7 @@
           </div>
         </div>
 
-        <div class="name-and-symbol-wrap-box">
+        <div id="symbol" class="name-and-symbol-wrap-box">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -978,26 +1031,26 @@
                       </div>
                     </div>
                   </div>
-                  <div class="token-funds-heading-btn-box">
-                    <!-- <h5>
+                  <!-- <div class="token-funds-heading-btn-box"> -->
+                  <!-- <h5>
                       <span class="custom-color-denomination-heading"
                         >1 ODFT</span
                       >
                       = 0.00200 USDT
                     </h5> -->
-                    <div
+                  <!-- <div
                       class="contact-us-btn-box odft-token-contact-btn-box token-allocation-funds-btn-box"
                     >
                       <a href="#">Buy Now</a>
-                    </div>
-                  </div>
+                    </div> -->
+                  <!-- </div> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="name-and-symbol-wrap-box Crafting the future">
+        <div id="roadmap" class="name-and-symbol-wrap-box Crafting the future">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -1062,7 +1115,7 @@
                           into the fabric of Freemasonry, triggering the next
                           stage of evolution. That day marks the beginning of
                           the official move towards Digital Freemasonry with
-                          ODFC (Official Digital Freemasonry Community. But that
+                          ODFC Official Digital Freemasonry Community. But that
                           was not just the beginning. One year later, on March
                           19, 2022, the world of Freemasonry welcomed the
                           "Declaration of Foundations and Fundamental
@@ -1070,7 +1123,7 @@
                           beginning of Digital Freemasonry.
                         </p>
                         <div class="custom-setting-phase-bottom-image">
-                          <img src="images/phase-icon-1-bottom.png" />
+                          <img src="images/phase-icon-2-bottom.png" />
                         </div>
                       </div>
                     </div>
@@ -1227,9 +1280,9 @@
                           back to life a symbol of spirituality and wisdom that
                           has inspired generations.
                         </p>
-                        <div class="custom-setting-phase-bottom-image">
+                        <!-- <div class="custom-setting-phase-bottom-image">
                           <img src="images/phase-icon-6-bottom.png" />
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>
@@ -1418,7 +1471,7 @@
                                 official beginning of Digital Freemasonry.
                               </p>
                               <div class="custom-setting-phase-bottom-image">
-                                <img src="images/phase-icon-1-bottom.png" />
+                                <img src="images/phase-icon-2-bottom.png" />
                               </div>
                             </div>
                           </div>
@@ -1494,9 +1547,9 @@
                                 spirituality and wisdom that has inspired
                                 generations.
                               </p>
-                              <div class="custom-setting-phase-bottom-image">
+                              <!-- <div class="custom-setting-phase-bottom-image">
                                 <img src="images/phase-icon-6-bottom.png" />
-                              </div>
+                              </div> -->
                             </div>
                           </div>
                         </div>
@@ -1528,7 +1581,7 @@
           </div>
         </div>
 
-        <div class="main-contact-us-form-box">
+        <div id="contact" class="main-contact-us-form-box">
           <img
             src="images/contact-us-element-1.png"
             class="main-element-contact-top wow animate__animated animate__slideInLeft"
@@ -1542,68 +1595,79 @@
                 <div class="contact-us-left-heading-box">
                   <img src="images/contact-with-odfc-img.png" />
                   <p>All contact form submissions will be sent to</p>
-                  <p><span>foundersofdigitalfreemasonry@gmail.com.</span></p>
+                  <p><span>foundersofdigitalfreemasonry@gmail.com</span></p>
                 </div>
               </div>
               <div class="col-md-6 custom-width">
                 <div class="contact-us-right-form-box">
-                  <form>
+                  <form id="contactForm">
                     <div class="row">
                       <div class="col-md-6">
                         <div class="custom-from-group">
                           <input
+                          name="firstname"
                             type="text"
                             class="form-control custom-contact-us-input-field"
                             id="exampleFormControlInput1"
                             placeholder="Enter your First name"
+                            required
                           />
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="custom-from-group">
                           <input
+                          name="lastname"
                             type="text"
                             class="form-control custom-contact-us-input-field"
                             id="exampleFormControlInput1"
                             placeholder="Enter your last name"
+                            required
                           />
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="custom-from-group">
                           <input
+                          name="email"
                             type="email"
                             class="form-control custom-contact-us-input-field"
                             id="exampleFormControlInput1"
                             placeholder="Enter your mail"
+                            required
                           />
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="custom-from-group">
                           <input
+                          name="phonenumber"
                             type="number"
                             class="form-control custom-contact-us-input-field"
                             id="exampleFormControlInput1"
                             placeholder="Phone number"
+                            required
                           />
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="custom-from-group">
                           <textarea
+                          name="message"
                             class="form-control custom-contact-us-text-field"
                             id="exampleFormControlTextarea1"
                             rows="8"
                             placeholder="Enter your message....."
+                            required
                           ></textarea>
                         </div>
                       </div>
                     </div>
-                  </form>
-                  <div class="contact-us-btn-box odft-token-contact-btn-box">
-                    <a href="#">Send Message</a>
+                      <div class="contact-us-btn-box odft-token-contact-btn-box">
+                    <a href="#" id="sendMessageBtn">Send Message</a>
                   </div>
+                  </form>
+                
                 </div>
               </div>
             </div>
@@ -1630,10 +1694,8 @@
                 <div class="footer-main-links-box">
                   <h5>Actions</h5>
                   <ul>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Symbol</a></li>
-                    <li><a href="#">Roadmap</a></li>
-                    <li><a href="#">Chart </a></li>
+                    <li><a href="#symbol">Symbol</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
                   </ul>
                 </div>
               </div>
@@ -1643,31 +1705,38 @@
                   <ul>
                     <li class="mail-moblie">
                       <a href="mailto:DigitalFreemasonry@ODFC.com"
-                        >DigitalFreemasonry@ODFC.com</a
+                        >foundersofdigitalfreemasonry@gmail.com</a
                       >
                     </li>
                     <li><a href="tel:+6576484575757">+6576484575757</a></li>
                   </ul>
                   <div class="footer-soical-icon-box moblie-soical-icon-box">
                     <ul class="moblie-ul-icons">
-                      <li>
+                      <!-- <li>
                         <a href="#"><img src="images/x-icon.png" /></a>
+                      </li> -->
+                      <li>
+                        <a href="https://www.facebook.com/DigitalFreemasonry/"
+                          ><img src="images/facebook-icon.png"
+                        /></a>
                       </li>
                       <li>
-                        <a href="#"><img src="images/facebook-icon.png" /></a>
+                        <a
+                          href="https://www.linkedin.com/company/digitalfreemasonry"
+                          ><img src="images/linkdin-icon.png"
+                        /></a>
                       </li>
                       <li>
-                        <a href="#"><img src="images/linkdin-icon.png" /></a>
+                        <a href="https://www.instagram.com/digital_freemasonry/"
+                          ><img src="images/insta-icon.png"
+                        /></a>
                       </li>
-                      <li>
-                        <a href="#"><img src="images/insta-icon.png" /></a>
-                      </li>
-                      <li>
+                      <!-- <li>
                         <a href="#"><img src="images/medium-icon.png" /></a>
-                      </li>
-                      <li>
+                      </li> -->
+                      <!-- <li>
                         <a href="#"><img src="images/you-tube-icon.png" /></a>
-                      </li>
+                      </li> -->
                     </ul>
                   </div>
                 </div>
@@ -1677,28 +1746,37 @@
                 <div class="footer-main-download-soical-box">
                   <h5>Download Documents</h5>
                   <div class="white-paper-download-img-box">
-                    <a href="images/ODFT-WhitePaper.pdf" target="_blank"><img src="images/whitepaper-image.png" /> </a>
+                    <a href="images/ODFT-WhitePaper.pdf" target="_blank"
+                      ><img src="images/whitepaper-image.png" />
+                    </a>
                   </div>
                   <div class="footer-soical-icon-box">
                     <ul>
-                      <li>
+                      <!-- <li>
                         <a href="#"><img src="images/x-icon.png" /></a>
+                      </li> -->
+                      <li>
+                        <a href="https://www.facebook.com/DigitalFreemasonry/"
+                          ><img src="images/facebook-icon.png"
+                        /></a>
                       </li>
                       <li>
-                        <a href="#"><img src="images/facebook-icon.png" /></a>
+                        <a
+                          href="https://www.linkedin.com/company/digitalfreemasonry"
+                          ><img src="images/linkdin-icon.png"
+                        /></a>
                       </li>
                       <li>
-                        <a href="#"><img src="images/linkdin-icon.png" /></a>
+                        <a href="https://www.instagram.com/digital_freemasonry/"
+                          ><img src="images/insta-icon.png"
+                        /></a>
                       </li>
-                      <li>
-                        <a href="#"><img src="images/insta-icon.png" /></a>
-                      </li>
-                      <li>
+                      <!-- <li>
                         <a href="#"><img src="images/medium-icon.png" /></a>
-                      </li>
-                      <li>
+                      </li> -->
+                      <!-- <li>
                         <a href="#"><img src="images/you-tube-icon.png" /></a>
-                      </li>
+                      </li> -->
                     </ul>
                   </div>
                 </div>
@@ -1709,12 +1787,12 @@
         <div class="main-copyright-bottom-box">
           <div class="container">
             <div class="row flex-column-reverse flex-md-row">
-              <div class="col-md-6">
-                <div class="copy-right-left-text-box">
+              <div class="col-md-12">
+                <div class="copy-right-left-text-box text-center">
                   <h6>Copyright 2026 ODFC. All rights reserved.</h6>
                 </div>
               </div>
-              <div class="col-md-6">
+              <!-- <div class="col-md-6">
                 <div class="copy-right-right-link-box">
                   <ul>
                     <li><a href="#">Privacy</a></li>
@@ -1723,7 +1801,7 @@
                     <li><a href="#"> About</a></li>
                   </ul>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -1735,7 +1813,165 @@
   <script src="js/wow.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
+  <div id="copyPopup" class="copy-popup">Address copied successfully!</div>
+  <script>
+    document.querySelectorAll(".copy-btn").forEach(function (button) {
+      button.addEventListener("click", function () {
+        const address = this.closest(".outside-border")
+          .querySelector(".contract-text")
+          .innerText.trim();
+
+        navigator.clipboard.writeText(address).then(() => {
+          const copyText = this.querySelector("h6");
+          const popup = document.getElementById("copyPopup");
+
+          copyText.innerText = "Copied!";
+          popup.classList.add("show");
+
+          setTimeout(() => {
+            copyText.innerText = "Copy";
+            popup.classList.remove("show");
+          }, 1500);
+        });
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const header = document.querySelector(".headermaintopnavbar");
+      const navLinks = document.querySelectorAll(".main-ul-li-a-link");
+      const sections = document.querySelectorAll("section[id]");
+
+      function updateHeaderFixed() {
+        if (window.scrollY > 80) {
+          header.classList.add("fixed-header");
+        } else {
+          header.classList.remove("fixed-header");
+        }
+      }
+
+      function updateActiveMenu() {
+        let currentSection = "home";
+        const headerHeight = header.offsetHeight + 100;
+
+        sections.forEach(function (section) {
+          const sectionTop = section.offsetTop - headerHeight;
+
+          if (window.scrollY >= sectionTop) {
+            currentSection = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach(function (link) {
+          link.classList.remove("active");
+
+          if (link.getAttribute("href") === "#" + currentSection) {
+            link.classList.add("active");
+          }
+        });
+      }
+
+      navLinks.forEach(function (link) {
+        link.addEventListener("click", function (e) {
+          const targetId = this.getAttribute("href");
+
+          if (targetId.startsWith("#")) {
+            e.preventDefault();
+
+            const targetSection = document.querySelector(targetId);
+
+            if (targetSection) {
+              const headerHeight = header.offsetHeight;
+              const targetPosition =
+                targetSection.offsetTop - headerHeight - 20;
+
+              window.scrollTo({
+                top: targetPosition,
+                behavior: "smooth",
+              });
+
+              navLinks.forEach(function (nav) {
+                nav.classList.remove("active");
+              });
+
+              this.classList.add("active");
+            }
+          }
+        });
+      });
+
+      window.addEventListener("scroll", function () {
+        updateHeaderFixed();
+        updateActiveMenu();
+      });
+
+      updateHeaderFixed();
+      updateActiveMenu();
+    });
+  </script>
+
   <script>
     new WOW().init();
   </script>
+  <script>
+  const sendBtn = document.getElementById("sendMessageBtn");
+  const form = document.getElementById("contactForm");
+  const responseMessage = document.getElementById("responseMessage");
+
+  sendBtn.addEventListener("click", async function (e) {
+    e.preventDefault();
+
+    // Check required fields
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    const formData = new FormData(form);
+console.log("hello=");
+console.log(formData);
+    const data = {
+      firstname: formData.get("firstname"),
+      lastname: formData.get("lastname"),
+      email: formData.get("email"),
+      phonenumber: formData.get("phonenumber"),
+      message: formData.get("message"),
+    };
+console.log("data=",data);
+    try {
+      const response = await fetch("https://www.apiauth.masonic-passport.com/api/v1/authmarket/contactusData", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+        "Content-Type": "application/json",
+
+        },
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        //responseMessage.innerText = "Message sent successfully.";
+        form.reset();
+      //    setTimeout(() => {
+      //   responseMessage.innerText = "";
+      // }, 3000);
+      } else {
+        //responseMessage.innerText = result.message || "Something went wrong.";
+        form.reset();
+      //    setTimeout(() => {
+      //   responseMessage.innerText = "";
+      // }, 3000);
+      }
+    } catch (error) {
+     // responseMessage.innerText = "Server error. Please try again.";
+      form.reset();
+      //  setTimeout(() => {
+      //   responseMessage.innerText = "";
+      // }, 3000);
+    }
+  });
+</script>
 </html>
