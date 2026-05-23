@@ -31,6 +31,31 @@
       rel="stylesheet"
     />
     <title>index</title>
+    <style>
+  #snackbar {
+    visibility: hidden;
+    min-width: 280px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 14px 20px;
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.4s, bottom 0.4s;
+  }
+
+  #snackbar.show {
+    visibility: visible;
+    opacity: 1;
+    bottom: 50px;
+  }
+</style>
   </head>
   <body>
     <div class="main-bg">
@@ -1666,6 +1691,7 @@
                       <div class="contact-us-btn-box odft-token-contact-btn-box">
                     <a href="#" id="sendMessageBtn">Send Message</a>
                   </div>
+                   <div id="snackbar">Form submitted successfully</div>
                   </form>
                 
                 </div>
@@ -1917,7 +1943,7 @@
   <script>
   const sendBtn = document.getElementById("sendMessageBtn");
   const form = document.getElementById("contactForm");
-  const responseMessage = document.getElementById("responseMessage");
+  //const responseMessage = document.getElementById("responseMessage");
 
   sendBtn.addEventListener("click", async function (e) {
     e.preventDefault();
@@ -1951,27 +1977,42 @@ console.log("data=",data);
       });
 
       const result = await response.json();
+console.log(result);
+      if (result.message=="SUCCESS") {
+        showSnackbar("Form submitted successfully");
 
-      if (result.success) {
-        //responseMessage.innerText = "Message sent successfully.";
-        form.reset();
-      //    setTimeout(() => {
-      //   responseMessage.innerText = "";
-      // }, 3000);
+  form.reset();
+
+  setTimeout(() => {
+    //responseMessage.innerText = "";
+  }, 3000);
       } else {
-        //responseMessage.innerText = result.message || "Something went wrong.";
-        form.reset();
-      //    setTimeout(() => {
-      //   responseMessage.innerText = "";
-      // }, 3000);
+          showSnackbar("Please try after sometime.");
+
+  form.reset();
+
+         setTimeout(() => {
+      //  responseMessage.innerText = "";
+      }, 3000);
       }
     } catch (error) {
-     // responseMessage.innerText = "Server error. Please try again.";
+    
+      showSnackbar("Please try again.");
       form.reset();
-      //  setTimeout(() => {
-      //   responseMessage.innerText = "";
-      // }, 3000);
+       setTimeout(() => {
+      //  responseMessage.innerText = "";
+      }, 3000);
     }
   });
 </script>
+<script>function showSnackbar(message) {
+  const snackbar = document.getElementById("snackbar");
+
+  snackbar.innerText = message;
+  snackbar.classList.add("show");
+
+  setTimeout(() => {
+    snackbar.classList.remove("show");
+  }, 3000);
+}</script>
 </html>
